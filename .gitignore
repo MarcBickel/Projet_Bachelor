@@ -102,3 +102,23 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+data/03_131022_cscw_pierre_02/
+
+data/05_131030_hpl_roland_02/
+
+data/06_131112_pierre_03/
+
+data/07_131120_roland_03/
+
+data/08_131127_hpl_roland_04/
+
+data/09_131202_cscw_pierre_04/
+
+data/classroom_layout/
+
+data/code/
+
+data/consent_form/
+
+data/questionnaire/
