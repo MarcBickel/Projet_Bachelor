@@ -1,0 +1,7 @@
+﻿alternatives to OpenPose, if needed:
+
+https://github.com/eldar/pose-tensorflow
+https://github.com/FORTH-ModelBasedTracker/PyOpenPose
+https://github.com/ildoonet/tf-pose-estimation
+https://github.com/bearpaw/pytorch-pose
+https://github.com/Microsoft/human-pose-estimation.pytorch
