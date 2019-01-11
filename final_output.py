@@ -57,6 +57,9 @@ print("Imports and start of openpose success !")
 
 #permet de stocker le NN entraîné
 def train_NN_def(): 
+    '''
+    Trains the model used for the results presented in the report. Hyper-parameters are already set, but you can change them if you like. 
+    '''
     #DATA LOAD
 
     ## PARAMETERS
@@ -257,6 +260,9 @@ def train_NN_def():
     
 
 def create_output_image(path_input, path_output, coordinates, y_predict):
+    '''
+    Creates the image with background input image, and attention levels printed in red in foreground. 
+    '''
     
     HEAD_SIZE = 50
     
@@ -281,7 +287,10 @@ def create_output_image(path_input, path_output, coordinates, y_predict):
 def predict_from_image(path_input, path_output, model):
     '''
     Runs a model on an input image, and outputs a graphical result. 
-    @parameters
+    Parameters:
+    @path_input: the image where the attention levels have to be computed
+    @path_output: the name of where you want the results to be stored
+    @model: the Neural Network used to predict the student attention levels
     '''
     with torch.no_grad():
         
